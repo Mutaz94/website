@@ -15,7 +15,7 @@ $$
 SSR = \sum\limits_{i=1}^{n}[y_i - \hat{y}_i]^2 = [y_i - (\hat{\beta}_0 + \hat{\beta}_1 x_i)]^2 = [y_i - \hat{\beta}_0 - \hat{\beta}_1 x_i]^2
 $$ {#eq-ssr}
 
-Recall that we can find the values of $\hat{\beta}_1$ and $\hat{\beta}_0$ that minimize /eq-ssr by taking the partial derivatives of @eq-ssr and setting them to 0.
+Recall that we can find the values of $\hat{\beta}_1$ and $\hat{\beta}_0$ that minimize @eq-ssr by taking the partial derivatives of @eq-ssr and setting them to 0.
 Thus, the values of $\hat{\beta}_1$ and $\hat{\beta}_0$ that minimize the respective partial derivative also minimize the sum of squared residuals.
 The partial derivatives are shown in @eq-par-deriv.
 
